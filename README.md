@@ -63,10 +63,10 @@ To communicate to the application it's recommended be use [Insomnia](https://ins
 For this routes was utilized a JWT with the Bearer header to authenticate the user within the application;
 - *PUT /users*: To update the data for an user;
 - *GET /providers*: To get a list of all available providers inside the application;
-- *GET /providers/:id:/available*: To get the free appointments with a specific provider;
+- *GET /providers/:id/available*: To get the free appointments with a specific provider;
 - *GET /appointments*: To get all the appointments for an user;
 - *POST /appointments*: To create a new appointment with a provider;
-- *DELETE /appointments:id*: To delete a specific appointment;
+- *DELETE /appointments/:id*: To delete a specific appointment;
 - *GET /schedule*: To get all the scheduled appointmnets for a provider;
 - *GET /notifications*: To get all the available notifications for an user;
 - *PUT /notifications*: To set a notification as read by the user;
